@@ -45,10 +45,11 @@ if (n4 / 5){
 /* SCRIVI QUI LA TUA RISPOSTA */
 let n5= 8
 let n6= 0
-if (n5===8 || n6 === 8) {
-  console.log()
+if (n5===8 || n6 === 8 || n5 + n6 || n5-n6 )
+ {
+  console.log('VERIFICATO')
 } else{
- console.log(n5 + n6 || n5-n6 )
+ console.log( )
 }
 //questo è sbagliato
 /* ESERCIZIO 5
@@ -94,13 +95,8 @@ if ((totalShoppingCart - discounTotalShoppingCart) >=freeShipping) {
 let numero1= 1
 let numero2= 2
 let numero3= 3
-if (numero3 > numero2 && numero3 > numero1) {
-  console.log('ordine')
-} else if(numero2 > numero1){
-  console.log()
-}else {
-  console.log()
-}
+//if (numero3 > numero2 && numero3 > numero1 && numero2 > numero1)
+
 
 
 /* ESERCIZIO 8
@@ -120,16 +116,15 @@ if (numero3 > numero2 && numero3 > numero1) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
+  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
   let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
-      console.log("Meno di 5");
+  if (val > 5) {
+   console.log("Maggiore di 5")}
+  else if (val < 10) {
+      console.log("Minore di 10");
     } else {
       console.log("Uguale a 10 o maggiore");
     }
-*/
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
