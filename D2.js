@@ -161,18 +161,7 @@ console.log(me)
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 /* SCRIVI QUI LA TUA RISPOSTA */
-const number1To10=[
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10,
-]
+const number1To10=[1,2,3,4,5,6,7,8,9,10]
 console.log(number1To10)
 
 /* ESERCIZIO 15
